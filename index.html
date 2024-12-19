@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrick Mwangi - Portfolio</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://use.fontawesome.com/a71e5ce1d6.js"></script>
+</head>
+
+<body>
+    <nav>
+        <p>Patrick Mwangi</p>
+
+        <button class="burger" id="burger">
+            &#9776
+        </button>
+
+        <ul>
+            <li><a id="home-anchor" href="#">Home</a></li>
+            <li><a id="stack-anchor" href="#tech-stack">Tech Stack</a></li>
+            <li><a id="comm-anchor" href="#communities">Communities</a></li>
+            <li><a id="edu-anchor" href="#education">Education</a></li>
+            <li><a id="exp-anchor" href="#experience">Experience</a></li>
+            <li><a id="proj-anchor" href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <div class="toggle-bar">
+        <button class="mode" onClick="toggleTheme()"><i id="icon" class="fa fa-moon-o" aria-hidden="true"></i></button>
+    </div>
+
+    <div class="profile">
+        <img src="assets/img/me-profile.jpg" alt="">
+        <div class="bio-text">
+            <h2>About Me</h2><span></span>
+            <p>Computer Science Student | Aspiring Software Engineer | Tech Enthusiast | Based in Mombasa, Kenya</p>
+            <p> A passionate learner exploring the world of coding, system analysis, and software development.
+                 With hands-on experience in building web and mobile applications using tools like Next.js, Django, 
+                 and React Native, I focus on creating scalable and user-friendly solutions. 
+                 My interests include software testing, database management, 
+                 and learning the latest trends in technology to make an impact in the IT world.
+                  Outside of tech, I enjoy cycling and discovering new challenges.</p>
+
+            <div class="social-media">
+                <i class="fa fa-linkedin" aria-hidden="true"><a href="https://linkedin.com/in/patrick-mwangi-d786"
+                    target="_blank" rel="noopener">LinkedIn</a></i>
+                <i class="fa fa-twitter" aria-hidden="true"><a href="https://x.com/_fahimmm" target="_blank"
+                        rel="noopener">Twitter</a></i>
+                <i class="fa fa-github" aria-hidden="true"><a href="https://github.com/frashid17" target="_blank"
+                        rel="noopener">GitHub</a></i>
+                <i class="fa fa-download" aria-hidden="true"><a
+                        href="./assets/resume/Patrick_Mwangi_CV.pdf" target="_blank"
+                        rel="noopener">Résumé</a></i>
+                <i class="fa fa-envelope" aria-hidden="true"><a href="mailto:frashid274@gmail.com" target="_blank"
+                        rel="noopener">Email Me</a></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="featured">
+        <iframe style="border-radius: 5px;" width="560" height="315" src="https://www.youtube.com/embed/TVOozawQsj4"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+
+    <div class="tech-stack" id="tech-stack">
+        <h2>Tech Stack</h2><span></span>
+
+        <div class="stack-imgs">
+            <img src="assets/img/html5.svg" alt="HTML 5">
+            <img src="assets/img/css.svg" alt="CSS">
+            <img src="assets/img/javascript.svg" alt="JavaScript">
+            <img src="assets/img/typescript.svg" alt="TypeScript">
+            <img src="assets/img/django.svg" alt="Django">
+            <img src="assets/img/nextjs-svgrepo-com.svg" alt="nextjs">
+            <img src="assets/img/python.svg" alt="python">
+            <img src="assets/img/sql.svg" alt="sql">
+            <img src="assets/img/nodejs.svg" alt="nodejs">
+            <img src="assets/img/php.svg" alt="php">
+        </div>
+    </div>
+
+    <div class="communities" id="communities">
+        <h2>Communities</h2><span></span>
+
+        <div class="communities-details">
+            <div class="details angular-kenya">
+                <img class="logos" src="https://www.reactdevske.org/_next/static/media/logo.c576495d.svg" alt="React Logo">
+                <span class="role">Member, React Developer Community</span>
+                <p class="description">Reactdevske is a vibrant community of developers passionate about React NextJs React Native and
+                     the powerful ecosystem. Our mission is to empower developers—from full-stack experts to frontend enthusiasts—to grow, 
+                     collaborate, and create meaningful solutions.</p>
+                <div class="socials">
+                    <i class="fa fa-twitter" aria-hidden="true"><a href="https://x.com/ReactDevsKE"
+                            target="_blank" rel="noopener">Twitter</a></i>
+                    <i class="fa fa-linkedin" aria-hidden="true"><a
+                            href="https://www.linkedin.com/company/reactdevske/" target="_blank"
+                            rel="noopener">LinkedIn</a></i>
+
+                </div>
+            </div>
+            <div class="details abnrbi">
+                <img class="logos" src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/GDG%20Pwani%20Logo%20-%20new.png" alt="GDG Pwani Logo">
+                <span class="role">Member, GDG Pwani</span>
+                <p class="description">A community of like-minded devs who are keen on Google technologies across the Kenyan Coastal Region.
+                     Anything and everything Google technologies.</p>
+                <div class="socials">
+                    <i class="fa fa-twitter" aria-hidden="true"><a href="https://x.com/GDG_Pwani"
+                            target="_blank" rel="noopener">Twitter</a></i>
+                    <i class="fa fa-linkedin" aria-hidden="true"><a href="https://www.linkedin.com/company/gdg-pwani/"
+                            target="_blank" rel="noopener">LinkedIn</a></i>
+                </div>
+
+            </div>
+
+            <!-- <div class="details gdgnrbi">
+                <img class="logos" src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/GDG%20Pwani%20Logo%20-%20new.png" alt="GDG Pwani Logo">
+                <span class="role">Member, GDG Pwani</span>
+                <p class="description">A community of like-minded devs who are keen on Google technologies across the Kenyan Coastal Region.
+                     Anything and everything Google technologies.</p>
+                <div class="socials">
+                    <i class="fa fa-twitter" aria-hidden="true"><a href="https://twitter.com/GDG_Nairobi"
+                            target="_blank" rel="noopener">Twitter</a></i>
+                    <i class="fa fa-linkedin" aria-hidden="true"><a href="https://www.linkedin.com/company/gdg-nairobi/"
+                            target="_blank" rel="noopener">LinkedIn</a></i>
+                </div> -->
+
+            </div>
+        </div>
+    </div>
+
+    <div class="education" id="education">
+        <h2>Education</h2><span></span>
+        <div class="edu">
+            <span class="course"><i class="fa fa-book" aria-hidden="true"></i>
+                BSc. Computer Science</span>
+            <span class="school"><i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                Kenya Methodist University</span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                Mar 2022 - present (awaiting graduation)</span>
+            <p class="description">Currently pursuing a Bachelor of Science in Computer Science, 
+                with coursework focused on software development, system analysis, database management,
+                 and emerging technologies. This program has equipped me with practical and theoretical 
+                 knowledge in programming, problem-solving, and the application of technology to real-world challenges. 
+                 Graduation is anticipated soon.</p>
+        </div>
+
+        <div class="edu">
+            <span class="course"><i class="fa fa-book" aria-hidden="true"></i>
+                Kenya Certificate of Secondary Education, K.C.S.E.</span>
+            <span class="school"><i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                Allidina Visram High School, Mombasa</span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                Jan 2016 - Nov 2019</span>
+            <p class="description">I successfully completed the Kenya Certificate of Secondary Education (KCSE), 
+                a comprehensive examination that evaluates knowledge and skills across key academic disciplines.
+                 My performance demonstrated proficiency in sciences, mathematics, languages, and humanities, 
+                 equipping me with a strong foundation for further studies and career growth.</p>
+        </div>
+    </div>
+
+    <div class="experience" id="experience">
+        <h2>Experience</h2><span></span>
+
+        <div class="exp">
+            <span class="role"><i class="fa fa-laptop" aria-hidden="true"></i>
+                Frontend Engineer & Project Lead</span>
+            <span class="company"><i class="fa fa-building-o" aria-hidden="true"></i>
+                Sky.Garden, Nairobi - Kenya</span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                July 2021 - Present</span>
+            <span class="date">
+                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                Angular, TypeScript, Cypress
+            </span>
+            <p class="description">Leading a project that is revamping the current Sky.Garden marketplace by implementing “Sky Style”,
+                which is Sky.Garden’s Design System to revamp the Sky.Garden Marketplace to improve the shopper’s
+                user experience and reduce the application’s loading time by 60%.</p><br>
+        </div>
+
+        <div class="exp">
+            <span class="role"><i class="fa fa-laptop" aria-hidden="true"></i>
+                Frontend Developer</span>
+            <span class="company"><i class="fa fa-building-o" aria-hidden="true"></i>
+                Cobiro, Warsaw-Poland (Remote)</span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                June 2021 - July 2022</span>
+            <span class="date">
+                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                Angular, TypeScript, Jest
+            </span>
+            <p class="description">Built features for the no-code website builder to enable 350,000 users bring their business online and
+                make use of the Google Ads feature embedded in the website builder. I also implemented Cobiro’s UI Design System to provide consistent User Experience across Cobiro’s products.
+                This has increased the Cobiro developers’ development experience by 50% since they don’t need to write
+                their own CSS code to implement designs provided.</p><br>
+        </div>
+
+        <div class="exp">
+            <span class="role"><i class="fa fa-laptop" aria-hidden="true"></i>
+                Frontend Developer</span>
+            <span class="company"><i class="fa fa-building-o" aria-hidden="true"></i>
+                Edventures, Sweden (Remote)</span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                Feb 2021 - June 2021</span>
+            <span class="date">
+                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                Angular, TypeScript, NgRx, TailwindCSS, Firebase
+            </span>
+            <p class="description">Implementing user-facing features for the company’s flagship platform that seeks to
+                reach 100, educate 50, and engage 100 million youths by empowering their ideas through entrepreneurship
+                education and guidance, using Artifical Interlligence and Machine Learning.<br>
+        </div>
+        <div class="exp">
+            <span class="role"><i class="fa fa-laptop" aria-hidden="true"></i>
+                Frontend Engineer (Contract)</span>
+            <span class="company"><i class="fa fa-building-o" aria-hidden="true"></i>
+                Foondi Tech, Kenya</span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                July 2020 - Mar 2021</span>
+            <span class="date">
+                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                Angular, TypeScript, Firebase, MPesa Payments
+            </span>
+            <p class="description">Designing and building a loan management system meant to be used by 1500 small
+                businesses and individual loan applicants in Kenya. The system eliminates the barrier of having SMEs and
+                SACCOs do loan applications for their customers, and instead have the customers themselves apply for
+                loans at the comfort of their seats.<br>
+        </div>
+
+        <div class="exp">
+            <span class="role"><i class="fa fa-laptop" aria-hidden="true"></i>
+                Frontend Engineer</span>
+            <span class="company"><i class="fa fa-building-o" aria-hidden="true"></i>
+                GCSP, Kenya</span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                June 2020 - Mar 2021</span>
+            <span class="date">
+                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                Angular, TypeScript, Firebase
+            </span>
+            <p class="description">We are an education technology company providing technological tools to connect
+                learners and tutors on demand. Our flagship product, the GCSP app, connects global learners to
+                professional tutors who can help the learners learn anything on-demand, anywhere.<br>
+        </div>
+
+        <div class="exp">
+            <span class="role"><i class="fa fa-laptop" aria-hidden="true"></i>
+                Software Engineer & Technical Lead</span>
+            <span class="company"><i class="fa fa-building-o" aria-hidden="true"></i>
+                MySpace Properties, Kenya</span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                Feb 2020 - July 2020</span>
+            <span class="date">
+                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                Angular, TypeScript, Firebase
+            </span>
+            <p class="description">Building a real-estate platform used by property owners, agents, and buyers to buy
+                and sell real estate property in Kenya. The platform is meant to slash the current time it takes to buy
+                a property from 90 days to 60 days. <br>
+                Designed and built an in-house application utilizing Angular, TypeScript, HTML and CSS for tracking
+                customers’ enquiries on real-estate property to either buy or sell.</p>
+        </div>
+
+        <div class="exp">
+            <span class="role"><i class="fa fa-laptop" aria-hidden="true"></i>
+                Remote Software Developer</span>
+            <span class="company"><i class="fa fa-building-o" aria-hidden="true"></i>
+                Knackapp</span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                Oct 2019 - January 2020</span>
+            <span class="date">
+                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                Angular, TypeScript
+            </span>
+            <p class="description">Revamped the KnackApp business platform to improve the user experience and onboarding
+                experience of new users of the platform using Angular, HTML, TypeScript, and SASS as the underlying
+                technologies. <br> Knack uses a combination of brain science, game theory, computer and data science,
+                digital user experience and machine learning, to help individuals know their hidden natural talents.
+                KnackApp is used in over 100 countries and available in over 20 languages.</p>
+        </div>
+    </div>
+
+    <div class="projects" id="projects">
+        <h2>Notable Projects</h2><span></span>
+        <div class="project-section">
+            <div class="content">
+                <div class="seventh background">
+                </div>
+                <div class="footer">
+                    <h3>GDG DevFest Kenya 2020</h3>
+                    <p>Official GDG DevFest Kenya site used to provide important information on the
+                        previously held DevFest 2020: schedule, speakers, registration links, recorded sessions & live
+                        chat.</p>
+                    <a href="https://devfestkenya.netlify.app/" target="_blank" rel="noopener">Check it out</a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="sixth background">
+                </div>
+                <div class="footer">
+                    <h3>GCSP Website</h3>
+                    <p>GCSP is an education technology company providing technological tools to connect learners and
+                        tutors on demand, from anywhere. </p>
+                    <a href="https://gcsp.education/" target="_blank" rel="noopener">Check it out</a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="fourth background">
+                </div>
+                <div class="footer">
+                    <h3>Virtual Retreat</h3>
+                    <p>A website used for signing up users and gives them authorized access to
+                        content provided by the host. The content was a series of videos from experts with regards to
+                        the virtual retreat</p>
+                    <a href="https://virtualretreat.netlify.app/" target="_blank" rel="noopener">Check it out</a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="eighth background">
+                </div>
+                <div class="footer">
+                    <h3>Weather Forecast</h3>
+                    <p>A simple Weather Forecast app built using Angular, Tailwind CSS, OpenWeather API & HERE Geocoding
+                        API. The project is currently Open-Sourced, ready for use for the community.</p>
+                    <a href="https://openforecast.netlify.app/" target="_blank" rel="noopener">Check it out</a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="top background">
+                </div>
+                <div class="footer">
+                    <h3>MySpace Properties Enquiries</h3>
+                    <p>An in-house web application built for tracking customers’ enquiries on real-estate property to
+                        either buy or sell utilizing Angular, TypeScript, HTML, SASS and Firebase.</p>
+                    <a href="https://customerlist.netlify.app/" target="_blank" rel="noopener">Check it out</a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="second background">
+                </div>
+                <div class="footer">
+                    <h3>Hack Club Kenya Mentors Sign-Up</h3>
+                    <p>Used to sign up and automatically email mentors upon registration. Hack Club Kenya is a
+                        nonprofit network of high school programming clubs to teach beginners to code.</p>
+                    <a href="https://hackclubkenya.netlify.app/" target="_blank" rel="noopener">Check it out</a>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="third background">
+                </div>
+                <div class="footer">
+                    <h3>Portfolio</h3>
+                    <p>I built a simple portfolio that showcases but not limited to experiences, education,
+                        projects, community work, profile and technical stack. I have Open Sourced this project.</p>
+                    <a href="https://waynegakuo.netlify.app/" target="_blank" rel="noopener">Check it out</a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="fifth background">
+                </div>
+                <div class="footer">
+                    <h3>Web Screenshot</h3>
+                    <p>A simple web app that uses the Screenshot API to take screenshots of sites by using URLs. One
+                        pastes the link of the URL, provides the API key provided by the Screenshot API site and the
+                        screenshot is taken and shown to the user.</p>
+                    <a href="https://webscreenshot.netlify.app/" target="_blank" rel="noopener">Check it out</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <span class="footer_desc">Done with &#10084; by <a class="git_link" href="https://github.com/frashid17"
+                target="_blank" rel="noopener">Patrick Mwangi</a></span>
+    </footer>
+</body>
+<script src="js/index.js"></script>
+
+</html>
