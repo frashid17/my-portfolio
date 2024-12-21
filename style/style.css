@@ -323,7 +323,7 @@ nav ul li a:hover::after {
   height: 207px;
   width: 100%;
   padding: 10px;
-  background: url("../assets/img/hkenya.png");
+  background: url("../assets/img/rpg-game.png");
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -391,7 +391,7 @@ nav ul li a:hover::after {
   height: 207px;
   width: 100%;
   padding: 10px;
-  background: url("../assets/img/weather_app.png");
+  background: url("../assets/img/dev-profile.png");
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
